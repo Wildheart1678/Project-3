@@ -41,10 +41,10 @@ public class project3 {
         int amount;
         int yes;
         System.out.println("The Products available are:");
-        System.out.println("1)Milk - Â£1.50");
-        System.out.println("2)Jam - Â£1");
-        System.out.println("3)Cheese - Â£1.20");
-        System.out.println("4)Ham - Â£1.70");
+        System.out.println("1)Milk - £1.50");
+        System.out.println("2)Jam - £1");
+        System.out.println("3)Cheese - £1.20");
+        System.out.println("4)Ham - £1.70");
         do{
         System.out.println("What product would you like to buy? Type 1-4 for the products");
         int choose = input.nextInt();
@@ -62,8 +62,8 @@ public class project3 {
         }
         System.out.println("Would you like to continue? 1 to continue, 2 to stop.");
          yes = input.nextInt();       
-        }while(yes = 1);
-         System.out.println("Your total come out to :Â£" + total);
+        }while(yes == 1);
+         System.out.println("Your total come out to :£" + total);
         }
            
  
